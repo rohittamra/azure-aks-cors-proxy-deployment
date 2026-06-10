@@ -1,4 +1,21 @@
-# DevOps Coding Challenge
+# Azure AKS CORS Proxy Deployment
+
+A DevOps project demonstrating end-to-end deployment automation on Microsoft Azure using Infrastructure as Code (Terraform), Kubernetes, Docker, and GitHub Actions.
+
+The project provisions Azure infrastructure, builds and publishes a Docker image, deploys a containerized CORS Proxy application to Azure Kubernetes Service (AKS), and implements Horizontal Pod Autoscaling (HPA) to support scalable workloads.
+
+## Features
+
+- Infrastructure provisioning with Terraform
+- Azure Kubernetes Service (AKS) deployment
+- Automated CI/CD using GitHub Actions
+- Docker image build and publishing to Docker Hub
+- Kubernetes manifests for application deployment
+- Horizontal Pod Autoscaler (HPA) configuration
+- Azure Service Principal authentication
+- Infrastructure as Code (IaC) best practices
+- End-to-end deployment automation
+- Project Structure
 
 ## 1. Cloud Provider Setup:
 
